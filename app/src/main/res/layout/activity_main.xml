@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="tienal.transition_y.MainActivity">
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="bt1"
+		android:text="共享元素"
+		android:textAllCaps="false"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="bt2"
+		android:text="RippleDrawable"
+		android:textAllCaps="false"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="bt3"
+		android:text="揭露动画"
+		android:textAllCaps="false"/>
+
+</LinearLayout>
